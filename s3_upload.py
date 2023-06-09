@@ -13,7 +13,7 @@ folder_path = os.path.join(root_path, 'data')
 print(f"Folder path: {folder_path}")
 
 
-AWS_BUCKET_NAME = 'meubucketcielo'
+AWS_BUCKET_NAME = ''
 
 for file_name in os.listdir(folder_path):
     file_name_path = os.path.join(folder_path, file_name)
